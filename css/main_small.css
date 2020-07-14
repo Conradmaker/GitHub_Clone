@@ -1,0 +1,42 @@
+/* COMMON */
+.summary__title {
+  font-size: 34px !important;
+}
+
+.summary__description {
+  font-size: 20px;
+}
+
+.section--feature .tiles ul {
+  grid-template-columns: repeat(1, 1fr);
+  border-right: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#map {
+  width: auto;
+  margin: 40px -20px 20px -20px;
+  border-right: none;
+  border-left: none;
+}
+
+.section--pricing .card {
+  display: block;
+}
+.section--pricing .card .cell2 {
+  border-left: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+footer .inner {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer .inner ul:nth-child(3) {
+  margin-top: 10px;
+}
+footer .inner ul {
+}
+footer .inner ul li {
+}

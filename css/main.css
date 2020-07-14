@@ -393,84 +393,12 @@ footer .logo:hover svg {
 }
 #toggle-btn {
   display: none;
-}
-
-/* MEDIA */
-
-@media (max-width: 1024px) {
-  header.section .inner {
-    max-width: none;
-    height: auto;
-    padding: 0 20px;
-    display: block;
-  }
-  header.section .menu-group {
-    display: block;
-  }
-  header.section .menu-group .main-menu {
-    flex-direction: column;
-  }
-  header.section .menu-group .main-menu li {
-    display: block;
-    border-top: 1px solid #e5e5e5;
-  }
-  header.section .menu-group .main-menu li a {
-    padding: 16px 0;
-  }
-  #search-form {
-    margin-top: 12px;
-    margin-right: 0;
-  }
-  #search {
-    width: 100%;
-    height: 42px;
-    text-align: center;
-  }
-
-  header .logo {
-    padding: 12px 0;
-  }
-  #toggle-btn {
-    display: block;
-    background: url("../img/toggle-btn.svg");
-    width: 18px;
-    height: 24px;
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    cursor: pointer;
-    text-indent: -9999px;
-  }
-  header .sign-group {
-    display: block;
-    padding: 10px 0 20px;
-  }
-  header .toggle {
-    display: none;
-  }
-  header .toggle.on {
-    display: initial;
-  }
-  header.section .btn-group {
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-  }
-  header.section .btn-group .sign-in {
-    margin-right: 0;
-    margin-bottom: 12px;
-  }
-  header.section .btn-group .btn {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  header.section .sign-group .sub-menu {
-    margin-top: 12px;
-    margin-right: 0;
-    justify-content: center;
-  }
-  header.section .sign-group .sub-menu a {
-  }
+  background: url("../img/toggle-btn.svg");
+  width: 18px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  cursor: pointer;
+  text-indent: -9999px;
 }
